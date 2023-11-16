@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1010654490093",
+    "project_id": "craftapp-ccfff",
+    "storage_bucket": "craftapp-ccfff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010654490093:android:8561ac225755fdc3b84be4",
+        "android_client_info": {
+          "package_name": "com.codino.crafts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010654490093-76qch33pl90l4oa94vqkfsa5a2212t0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk3wOgfZvUAxhcCc32obIiXMH3_7hSliw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010654490093-76qch33pl90l4oa94vqkfsa5a2212t0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

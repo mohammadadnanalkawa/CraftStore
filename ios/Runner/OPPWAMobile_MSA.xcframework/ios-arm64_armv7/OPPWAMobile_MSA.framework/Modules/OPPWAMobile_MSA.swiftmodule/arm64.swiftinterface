@@ -1,0 +1,24 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OPPWAMobile_MSA
+import Foundation
+@_exported import OPPWAMobile_MSA
+import Swift
+import _Concurrency
+@objc public enum OPPRequestServerMode : Swift.Int {
+  case test
+  case live
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class OPPMerchantServer : ObjectiveC.NSObject {
+  @objc public static func requestCheckoutId(amount: Swift.Double, currency: Swift.String, paymentType: Swift.String?, serverMode: OPPWAMobile_MSA.OPPRequestServerMode, extraParameters: [Swift.String : Swift.String]?, completionHandler: @escaping (Swift.String?, Swift.Error?) -> Swift.Void)
+  @objc public static func requestPaymentStatus(resourcePath: Swift.String, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
+  @objc deinit
+}
+extension OPPWAMobile_MSA.OPPRequestServerMode : Swift.Equatable {}
+extension OPPWAMobile_MSA.OPPRequestServerMode : Swift.Hashable {}
+extension OPPWAMobile_MSA.OPPRequestServerMode : Swift.RawRepresentable {}
